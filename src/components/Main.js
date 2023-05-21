@@ -16,7 +16,7 @@ import eggDesktop from "../images/desktop/image-transform.jpg";
 import lampMobile from "../images/mobile/image-stand-out.jpg";
 import lampDesktop from "../images/desktop/image-stand-out.jpg";
 import milkMobile from "../images/mobile/image-gallery-milkbottles.jpg";
-import milkDesktop from "../images/mobile/image-gallery-milkbottles.jpg";
+import milkDesktop from "../images/desktop/image-gallery-milkbottles.jpg";
 import orangeMobile from "../images/mobile/image-gallery-orange.jpg";
 import orangeDesktop from "../images/desktop/image-gallery-orange.jpg";
 import coneMobile from "../images/mobile/image-gallery-cone.jpg";

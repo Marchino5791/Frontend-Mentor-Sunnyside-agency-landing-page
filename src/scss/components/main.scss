@@ -39,13 +39,14 @@ main {
             font-size: var(--32-40);
             font-weight: 900;
             margin-bottom: 1.5rem;
+            color: var(--primary-text);
         }
 
         &__paragraph {
             font-family: "Barlow", sans-serif;
             font-weight: 600;
             font-size: 1.125rem;
-            color: var(--very-dark-grayish-blue);
+            color: var(--secondary-text);
             margin-bottom: 2rem;
             letter-spacing: -.128571px;
             line-height: 1.5;
@@ -56,6 +57,7 @@ main {
             font-size: .9375rem;
             font-weight: 900;
             display: inline-block;
+            color: var(--primary-text);
 
             a {
                 padding-inline: .5rem;
@@ -155,7 +157,7 @@ main {
 
     &__title {
         font-size: var(--16-20);
-        color: var(--dark-grayish-blue);
+        color: var(--testimonial-title);
         text-transform: uppercase;
         font-weight: 900;
         letter-spacing: 4px;
@@ -185,7 +187,7 @@ main {
 
         &__content {
             @extend .about__text-box__paragraph;
-            color: var(--very-dark-desaturated-blue);
+            color: var(--testimonial-content-text);
         }
 
         &__name {
@@ -193,13 +195,14 @@ main {
             font-weight: 900;
             letter-spacing: -0.128571px;
             margin-bottom: .5rem;
+            color: var(--primary-text)
         }
 
         &__jobTitle {
             font-size: .875rem;
             font-family: "Barlow", sans-serif;
             font-weight: 600;
-            color: var(--dark-grayish-blue);
+            color: var(--testimonial-title);
         }
     }
 }

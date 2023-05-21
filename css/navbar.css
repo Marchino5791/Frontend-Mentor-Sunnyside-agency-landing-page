@@ -45,7 +45,7 @@ nav .navbar-list__item {
   text-align: center;
   width: -moz-fit-content;
   width: fit-content;
-  color: var(--grayish-blue);
+  color: var(--secondary-text);
 }
 @media (min-width: 48em) {
   nav .navbar-list__item {
@@ -59,14 +59,14 @@ nav .navbar-list__item {
     margin-left: 3rem;
   }
   nav .navbar-list__item:hover {
-    color: var(--footer);
+    color: var(--primary-text);
   }
 }
 
 .btn {
   padding: 1rem 2rem;
   background-color: var(--yellow);
-  color: var(--very-dark-desaturated-blue);
+  color: var(--primary-text);
   border-radius: 28px;
   display: block;
   font-family: "Fraunces 9pt Soft";

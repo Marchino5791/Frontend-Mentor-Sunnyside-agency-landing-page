@@ -44,7 +44,7 @@ nav {
             margin: 2rem auto;
             text-align: center;
             width: fit-content;
-            color: var(--grayish-blue);
+            color: var(--secondary-text);
 
             @include breakpoint("tablet") {
                 margin: 0;
@@ -56,7 +56,7 @@ nav {
                 margin-left: 3rem;
 
                 &:hover {
-                    color: var(--footer)
+                    color: var(--primary-text)
                 }
             }
         }
@@ -66,7 +66,7 @@ nav {
 .btn {
     padding: 1rem 2rem;
     background-color: var(--yellow);
-    color: var(--very-dark-desaturated-blue);
+    color: var(--primary-text);
     border-radius: 28px;
     display: block;
     font-family: 'Fraunces 9pt Soft';

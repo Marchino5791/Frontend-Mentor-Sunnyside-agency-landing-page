@@ -22,6 +22,12 @@ header .top {
     padding: 2rem 2.5rem 0;
   }
 }
+@media (min-width: 64em) {
+  header .top__logo {
+    scale: 1.4;
+    margin-left: 2.5rem;
+  }
+}
 header .top__hamburger {
   cursor: pointer;
 }
@@ -50,4 +56,11 @@ header .heading__primary {
   color: var(--white);
   text-align: center;
   margin-bottom: 3.25rem;
+  text-transform: uppercase;
+  letter-spacing: clamp(0.390625rem, 0.3003rem + 0.3852vw, 0.546875rem);
+}
+@media (min-width: 64em) {
+  header .heading__primary {
+    margin-bottom: 6rem;
+  }
 }/*# sourceMappingURL=header.css.map */

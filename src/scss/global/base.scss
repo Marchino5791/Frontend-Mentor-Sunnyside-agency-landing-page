@@ -10,11 +10,12 @@
     --footer-bg: hsl(168, 44%, 70%);
 
     // ### Neutral
-    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
-    --very-dark-grayish-blue: hsl(213, 9%, 39%);
-    --dark-grayish-blue: hsl(232, 10%, 55%);
-    --grayish-blue: hsl(210, 4%, 67%);
+    --primary-text: hsl(212, 27%, 19%);
+    --testimonial-content-text: hsl(213, 9%, 39%);
+    --secondary-text: hsl(232, 10%, 55%);
+    --testimonial-title: hsl(210, 4%, 67%);
     --white: hsl(0, 0%, 100%);
+    --cream: hsla(39, 100%, 99%, 1);
 
     // font size
     --40-56: clamp(2.5rem, 1.9532rem + 2.4169vw, 3.5rem);
@@ -38,6 +39,7 @@ html {
 
 body {
     font-family: 'Fraunces', serif;
+    background-color: var(--cream);
 }
 
 // half size of the screen (mobile version)

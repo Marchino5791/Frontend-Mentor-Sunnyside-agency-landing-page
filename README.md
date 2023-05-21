@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Marchino5791/Frontend-Mentor-Sunnyside-agency-landing-page](https://github.com/Marchino5791/Frontend-Mentor-Sunnyside-agency-landing-page)
+- Live Site URL: [https://marchino5791.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/](https://marchino5791.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/)
 
 ## My process
 

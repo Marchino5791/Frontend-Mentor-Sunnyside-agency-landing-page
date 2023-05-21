@@ -5,10 +5,13 @@
   color: var(--footer);
 }
 .footer__logo {
-  width: 10.5rem;
   margin-inline: auto;
   display: block;
   margin-bottom: 2.5rem;
+  scale: 1.4;
+}
+.footer__logo path {
+  fill: var(--graphic-design-text);
 }
 .footer__link {
   font-family: "Barlow", sans-serif;
@@ -35,7 +38,7 @@
 }
 @media (min-width: 64em) {
   .footer__social path:hover {
-    fill: white;
+    fill: var(--white);
   }
 }
 .footer__social img {
@@ -47,7 +50,7 @@
   margin-top: 3rem;
 }
 .footer .attribution a {
-  color: var(--very-dark-desaturated-blue);
+  color: var(--graphic-design-text);
 }
 .footer .attribution a:hover {
   color: var(--footer);
