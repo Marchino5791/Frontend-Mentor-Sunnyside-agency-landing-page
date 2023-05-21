@@ -4,7 +4,7 @@ import React from "react";
 import '../scss/components/header.scss';
 
 // Images
-import arrow from '../images/icon-arrow-down.svg';
+import arrow from '../images/arrow-down.svg';
 
 // Components
 import Navbar from "./Navbar";

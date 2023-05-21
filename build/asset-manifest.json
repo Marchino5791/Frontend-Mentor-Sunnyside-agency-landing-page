@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/css/main.754a9fff.css",
-    "main.js": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/js/main.cb9ca223.js",
+    "main.css": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/css/main.b7fb4778.css",
+    "main.js": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/js/main.49e2daf0.js",
     "static/media/image-header.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/image-header.9167cda0c72b56b2cda5.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
     "static/media/image-graphic-design.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
     "static/media/image-photography.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/image-photography.104cf40b52f66520afb0.jpg",
     "static/media/image-gallery-sugarcubes.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
@@ -12,11 +13,11 @@
     "index.html": "/Frontend-Mentor-Sunnyside-agency-landing-page/index.html",
     "static/media/icon-arrow-down.svg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
-    "main.754a9fff.css.map": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/css/main.754a9fff.css.map",
-    "main.cb9ca223.js.map": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/js/main.cb9ca223.js.map"
+    "main.b7fb4778.css.map": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/css/main.b7fb4778.css.map",
+    "main.49e2daf0.js.map": "/Frontend-Mentor-Sunnyside-agency-landing-page/static/js/main.49e2daf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.754a9fff.css",
-    "static/js/main.cb9ca223.js"
+    "static/css/main.b7fb4778.css",
+    "static/js/main.49e2daf0.js"
   ]
 }

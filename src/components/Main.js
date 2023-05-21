@@ -21,8 +21,8 @@ import orangeMobile from "../images/mobile/image-gallery-orange.jpg";
 import orangeDesktop from "../images/desktop/image-gallery-orange.jpg";
 import coneMobile from "../images/mobile/image-gallery-cone.jpg";
 import coneDesktop from "../images/desktop/image-gallery-cone.jpg";
-import sugarMobile from "../images/mobile/image-gallery-sugar-cubes.jpg";
-import sugarDesktop from "../images/desktop/image-gallery-sugarcubes.jpg";
+import sugarMobile from "../images/mobile/image-sugar-cubes.jpg";
+import sugarDesktop from "../images/desktop/image-sugarcubes.jpg";
 
 export default function Main() {
     return (

@@ -4,7 +4,7 @@ import React from "react";
 import "../scss/components/navbar.scss"
 
 // Img
-import hamburger from "../images/icon-hamburger.svg";
+import hamburger from "../images/hamburger.svg";
 
 export default function Navbar() {
     let [menuOpen, setMenu] = React.useState(false);
