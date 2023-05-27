@@ -1,0 +1,69 @@
+@use "../global/mixin" as *;
+
+.footer {
+    grid-column-start: span 4;
+    padding: 4rem 2.5rem 5rem;
+    background-color: var(--footer-bg);
+    color: var(--footer);
+
+    &__logo {
+        margin-inline: auto;
+        display: block;
+        margin-bottom: 2.5rem;
+        scale: 1.4;
+
+        path {
+            fill: var(--graphic-design-text)
+        }
+    }
+
+    &__link {
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        font-size: 1.125rem;
+        margin-bottom: 5.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 300px;
+        margin-inline: auto;
+
+        @include breakpoint("desktop") {
+            a:hover {
+                color: var(--white);
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: auto;
+        width: 164px;
+
+        @include breakpoint("desktop") {
+            path:hover {
+                fill: var(--white);
+            }
+        }
+
+        img {
+            display: block;
+        }
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 3rem;
+
+        a {
+            color: var(--graphic-design-text);
+
+            &:hover {
+                color: var(--footer)
+            }
+        }
+    }
+}

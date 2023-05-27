@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-family: inherit;
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+svg {
+  display: block;
+}/*# sourceMappingURL=reset.css.map */
