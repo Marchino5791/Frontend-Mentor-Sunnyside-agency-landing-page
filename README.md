@@ -41,6 +41,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - JavaScript
+- Vite
 - [React](https://reactjs.org/) - JS library
 - [Google Fonts](https://fonts.google.com/) - For fonts
 
