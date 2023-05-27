@@ -1,0 +1,87 @@
+@use "../global/mixin" as *;
+
+nav {
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    top: 6.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    background-color: var(--white);
+    font-weight: 600;
+    font-size: 1.25rem;
+
+    @include breakpoint("tablet") {
+        position: static;
+        display: block !important;
+        background-color: transparent;
+    }
+
+    .triangle {
+        background-color: transparent;
+        border: .75rem solid var(--white);
+        display: inline-block;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        position: absolute;
+        top: calc(-1.5rem + 3px);
+        right: 0;
+
+        @include breakpoint("tablet") {
+            display: none;
+        }
+    }
+
+    .navbar-list {
+        padding-block: .5rem;
+
+        @include breakpoint("tablet") {
+            display: flex;
+            padding: 0;
+            align-items: center;
+        }
+
+        &__item {
+            margin: 2rem auto;
+            text-align: center;
+            width: fit-content;
+            color: var(--secondary-text);
+
+            @include breakpoint("tablet") {
+                margin: 0;
+                margin-left: 2rem;
+                color: var(--white);
+            }
+
+            @include breakpoint("desktop") {
+                margin-left: 3rem;
+
+                &:hover {
+                    color: var(--primary-text)
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: var(--yellow);
+    color: var(--primary-text);
+    border-radius: 28px;
+    display: block;
+    font-family: 'Fraunces 9pt Soft';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+
+    @include breakpoint("tablet") {
+        background-color: var(--white);
+    }
+
+    @include breakpoint("desktop") {
+        &:hover {
+            color: var(--white);
+            background-color: hsla(0, 0, 100%, .25);
+        }
+    }
+}
